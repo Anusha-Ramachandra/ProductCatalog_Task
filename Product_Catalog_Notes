@@ -1,0 +1,54 @@
+The Product Catalog System is a Spring Boot web application that allows users to add and view products.
+
+My Project Structure looks like:
+
+product-catalog - src - main - java/com/example/productcatalog/controller/ProductController.java
+                                                
+product-catalog - src - main - java/com/example/productcatalog/entity/Product.java  
+                                                               
+product-catalog - src - main - java/com/example/productcatalog/repository/ProductRepository.java
+                                              
+product-catalog - src - main - java/com/example/productcatalog/service/ProductService.java
+                                              
+product-catalog - src - main - java/com/example/productcatalog/ProductCatalogApplication.java
+
+product-catalog - src - resources/
+
+product-catalog - src - main - templates/addProduct.html
+
+product-catalog - src - main - templates/displayProducts.html
+
+product-catalog - src - main - templates/home.html
+
+product-catalog - src - main - static/css/style.css
+
+product-catalog - src - main - application.properties
+
+product-catalog - pom.xml
+
+
+
+Maven dependency has been used and the project metadata is as below:- 
+Group name :- com.productcatalog 
+Artifact:- product-catalog  
+Name:- product-catalog 
+Description:- Demo project for Spring Boot and Packaging is jar 
+Dependencies :- Spring Web, Spring data JPA, MySQL Driver, Thymeleaf
+
+Once I run my application in Intellij, then I will open the browser give http://localhost:8080/products/add to add the name of the product and the price of the product and the category of the product.
+
+Add Product
+Name: colgate
+Price: 60
+Category: Toothpaste
+Add Product
+
+And once I click on add it will display the product list as below
+
+Product List
+
+ID	Name	      Price	   Category
+1	  Aqualogica	2000.0	 Skin and Hair
+2	  colgate	    60.0	   Toothpaste
+
+
